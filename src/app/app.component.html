@@ -1,0 +1,25 @@
+<table border="2px solid">
+<tr>
+  <th>
+    UserID
+  </th>
+  <th>
+    ID
+  </th>
+  <th>
+    Title
+  </th>
+</tr>
+
+<tr *ngFor="let i of postList">
+  <td>
+    {{i.userId}}
+  </td>
+  <td>
+    {{i.id}}
+  </td>
+  <td>
+    {{i.title}}
+  </td>
+</tr>
+</table>
